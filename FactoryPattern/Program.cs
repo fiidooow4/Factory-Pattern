@@ -8,8 +8,8 @@
             IVehicle vehicle1 = VehicleFactory.GetVehicle(4); 
             IVehicle vehicle2 = VehicleFactory.GetVehicle(6); 
 
-            vehicle1.Driver(); 
-            vehicle2.Driver(); 
+            vehicle1.Drive(); 
+            vehicle2.Drive(); 
         }
     }
 }
